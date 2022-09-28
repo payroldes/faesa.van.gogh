@@ -1,0 +1,106 @@
+/* ======== RESET ==================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* === BASE === */
+body {
+  font: 300 1rem;
+  background-color: rgb(118, 170, 184);
+}
+
+nav {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  padding: 1.2rem;
+  color: rgb(130, 205, 224);
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.historia p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.historia img{
+  padding: 1rem;
+  width: auto;
+}
+
+ /* === ingressos === */
+
+.container {
+text-align: center;
+align-items: center;
+background-color: rgb(61, 144, 146);
+margin-left: 30%;
+margin-right: 30%;
+padding: 1.5rem;
+}
+
+.ingresso1 {
+  display: inline-block;
+  width: 200px;
+  padding-left: 2rem;  
+}
+
+.ingresso2 {
+display: inline-block;
+width: 200px;
+padding: 1rem;
+}
+
+
+/* === BUTTON === */
+.compre {
+  height: auto;
+  width: 190px;
+  
+  margin-left: 31%;
+
+  font-size: 2rem[];
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-decoration: none;
+
+  display: flex;
+  background-color: whitesmoke;
+  color: rgb(130, 205, 224);
+  padding: 0.6rem 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+}
+
+/* ==== FOOTER ================= */
+footer {
+  background: whitesmoke;
+  color:rgb(130, 205, 224);
+  font-size: 1rem;
+  padding: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links {
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: antiquewhite;
+  margin-top: 1rem
+};
